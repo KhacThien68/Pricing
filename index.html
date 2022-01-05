@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./asset/bootstrap/bootstrap.css">
+  <link rel="stylesheet" href="./asset/font/fontawesome-free-5.15.4-web/css/all.css">
+  <link rel="stylesheet" href="./asset/css/style.css">
+</head>
+
+
+<body>
+  <div class="container py-3" style="max-width: 960px; ">
+    <header>
+      <div class="d-flex flex-column flex-md-row align-items-center pb-3 mb-4 border-bottom">
+        <a href="#" class="d-flex align-items-center text-dark text-decoration-none">
+          <i class="me-2 fab fa-bootstrap" style="width: 36px; height: 28px; font-size: 28px;"></i>
+          <span class="fs-4">Pricing example</span>
+        </a>
+        <nav class="d-inline-flex mt-2 mt-md-0 ms-md-auto">
+          <a href="#" class="me-3 py-2 text-dark text-decoration-none">Features</a>
+          <a href="#" class="me-3 py-2 text-dark text-decoration-none">Enterprise</a>
+          <a href="#" class="me-3 py-2 text-dark text-decoration-none">Support</a>
+          <a href="#" class="me-3 py-2 text-dark text-decoration-none">Pricing</a>
+        </nav>
+      </div>
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./asset/img/HN.png" class="d-block w-100 carousel-item-img" alt="Hà Nội">
+          </div>
+          <div class="carousel-item">
+            <img src="./asset/img/ho-chi-minh-city.jpg" class="d-block w-100 carousel-item-img" alt="Hồ Chí Minh City">
+          </div>
+          <div class="carousel-item">
+            <img src="./asset/img/HP.jpg" class="d-block w-100 carousel-item-img" alt="Hải Phòng">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <div class="pricing p-3 pb-md-4 mx-auto text-center">
+        <h1 class="display-4 fw-normal">Pricing</h1>
+        <p class="fs-5 text-muted">Quickly build an effective pricing table for your potential customers with this
+          Bootstrap example. It’s built with default Bootstrap components and utilities with little customization.</p>
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <div class="row row-cols-md-2 row-cols-1 row-cols-lg-3 mb-3 text-center card-items">
+          <div class="col">
+            <div class="card mb-4 rounded-3 shadow-sm">
+              <img src="./asset/img/kinh-nghiem-du-lich-Ha-Noi-1.jpg" class="card-img-top card-img" alt="Hà Nội">
+              <div class="card-body">
+                <h5 class="card-title">Hà Nội</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card mb-4 rounded-3 shadow-sm">
+              <img src="./asset/img/HP-card.jpg" class="card-img-top card-img" alt="Hải Phòng">
+              <div class="card-body">
+                <h5 class="card-title">Hải Phòng</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card mb-4 rounded-3 shadow-sm">
+              <img src="./asset/img/ho-chi-minh-city.jpg" class="card-img-top card-img" alt="Hồ Chí Minh city">
+              <div class="card-body">
+                <h5 class="card-title">Hồ Chí Minh</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="mt-4">
+            <h2 class="col display-6 text-center mb-4">Compare plans</h2>
+        </div>
+
+        <div class="table-responsive">
+          <table class="table text-center">
+              <thead>
+                <tr>
+                  <th style="width: 34%"></th>
+                  <th style="width: 22%">Free</th>
+                  <th style="width: 22%">Pro</th>
+                  <th style="width: 22%">Enterprise</th>
+                </tr>
+              </thead>
+  
+              <tbody>
+                <tr>
+                  <th class="text-start" style="width: 34%">Public</th>
+                  <th style="width: 22%">
+                    <i class="fas fa-check"></i>
+                  </th>
+                  <th style="width: 22%">
+                    <i class="fas fa-check"></i>
+                  </th>
+                  <th style="width: 22%">
+                    <i class="fas fa-check"></i>
+                  </th>
+                </tr>
+                <tr>
+                  <th class="text-start" style="width: 34%">Private</th>
+                  <th style="width: 22%"></th>
+                  <th style="width: 22%">
+                    <i class="fas fa-check"></i>
+                  </th>
+                  <th style="width: 22%">
+                    <i class="fas fa-check"></i>
+                  </th>
+                </tr>
+              </tbody>
+  
+              <tbody>
+                <tr>
+                  <th class="text-start" style="width: 34%">Permissions</th>
+                  <th style="width: 22%">
+                    <i class="fas fa-check"></i>
+                  </th>
+                  <th style="width: 22%">
+                    <i class="fas fa-check"></i>
+                  </th>
+                  <th style="width: 22%">
+                    <i class="fas fa-check"></i>
+                  </th>
+                </tr>
+                <tr>
+                  <th class="text-start" style="width: 34%">Sharing</th>
+                  <th style="width: 22%"></th>
+                  <th style="width: 22%">
+                    <i class="fas fa-check"></i>
+                  </th>
+                  <th style="width: 22%">
+                    <i class="fas fa-check"></i>
+                  </th>
+                </tr>
+                <tr>
+                  <th class="text-start" style="width: 34%">Unlimited members </th>
+                  <th style="width: 22%"></th>
+                  <th style="width: 22%">
+                    <i class="fas fa-check"></i>
+                  </th>
+                  <th style="width: 22%">
+                    <i class="fas fa-check"></i>
+                  </th>
+                </tr>
+                <tr>
+                  <th class="text-start" style="width: 34%">Extra security</th>
+                  <th style="width: 22%"></th>
+                  <th style="width: 22%"></th>
+                  <th style="width: 22%">
+                    <i class="fas fa-check"></i>
+                  </th>
+                </tr>
+              </tbody>
+          </table>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="container pt-4 mt-4 my-md-5 pt-md-5 border-top">
+        <div class="row">
+          <div class="col-12 col-md">
+            <i class="fab fa-bootstrap" style="width: 24px; height: 19px; font-size: 24px; color: #700ff4;"></i>
+            <p>© 2017–2021</p>
+          </div>
+          <div class="col-6 col-md">
+            <h3>Features</h3>
+            <ul class="list-unstyled">
+              <li class="mb-1">
+                <a href="#" class="link-secondary text-decoration-none">Cool stuff</a>
+              </li>
+              <li class="mb-1">
+                <a href="#" class="link-secondary text-decoration-none">Random feature</a>
+              </li>
+              <li class="mb-1">
+                <a href="#" class="link-secondary text-decoration-none">Team feature</a>
+              </li>
+              <li class="mb-1">
+                <a href="#" class="link-secondary text-decoration-none">Tuff for
+                  developers</a>
+              </li>
+              <li class="mb-1">
+                <a href="#" class="link-secondary text-decoration-none">Ther one</a>
+              </li>
+              <li class="mb-1">
+                <a href="#" class="link-secondary text-decoration-none">Last time</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-6 col-md">
+            <h3>Resources</h3>
+            <ul class="list-unstyled">
+              <li class="mb-1">
+                <a href="#" class="link-secondary text-decoration-none">Resource</a>
+              </li>
+              <li class="mb-1">
+                <a href="#" class="link-secondary text-decoration-none">Resource name</a>
+              </li>
+              <li class="mb-1">
+                <a href="#" class="link-secondary text-decoration-none">Another
+                  resource</a>
+              </li>
+              <li class="mb-1">
+                <a href="#" class="link-secondary text-decoration-none">Final resource</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-6 col-md">
+            <h3>About</h3>
+            <ul class="list-unstyled">
+              <li class="mb-1">
+                <a href="#" class="link-secondary text-decoration-none">Cool stuff</a>
+              </li>
+              <li class="mb-1">
+                <a href="#" class="link-secondary text-decoration-none">Random feature</a>
+              </li>
+              <li class="mb-1">
+                <a href="#" class="link-secondary text-decoration-none">Team feature</a>
+              </li>
+              <li class="mb-1">
+                <a href="#" class="link-secondary text-decoration-none">tuff for
+                  developers</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+</body>
+<script src="./asset/bootstrap/bootstrap.bundle.min.js"></script>
+
+</html>
